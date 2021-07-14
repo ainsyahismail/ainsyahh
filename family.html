@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ainsyah.website.</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+	<!-->
+	var image1=new Image()
+	image1.src="img/me.jpg"
+	var image2=new Image()
+	image2.src="img/family2.jpg"
+	var image3=new Image()
+	image3.src="img/abewan.jpg"
+	var image4=new Image()
+	image4.src="img/abeyi.jpg"
+	var image5=new Image()
+	image5.src="img/abearif.jpg"
+	var image6=new Image()
+	image6.src="img/arif&era.jpeg"
+	var image7=new Image()
+	image7.src="img/brothers.jpeg"
+	var image8=new Image()
+	image8.src="img/era&kakna.jpeg"
+	var image9=new Image()
+	image9.src="img/kakla.jpg"
+	var image10=new Image()
+	image10.src="img/kakya.jpg"
+	var image11=new Image()
+	image11.src="img/kakna.jpg"
+	var image12=new Image()
+	image12.src="img/khairi.jpg"
+	var image13=new Image()
+	image13.src="img/yatikahwin.jpeg"
+	var image14=new Image()
+	image14.src="img/parents.jpeg"
+	var image15=new Image()
+	image15.src="img/me1.jpg"
+	//-->
+	</script>
+</head>
+<body style="background-image: url('img/backgroun3.jpg');">
+	
+	<!-- header -->
+			<div class="medsos">
+			<div class="container">
+				<ul>
+					<li><a href="http://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="http://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+					<li><a href="http://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<header>
+			<div class="container">
+				<h1><a href="index.html">Ainsy4hIsmail.</a></h1>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="biodata.html">BIODATA</a></li>
+					<li><a href="experiences.html">EXPERIENCES</a></li>
+					<li><a href="education.html">EDUCATION</a></li>
+					<li class="active"><a href="family.html">FAMILY</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+		</header>
+
+	<!-- label -->
+		<section class="label">
+			<div class="container">
+				<p>HOME / FAMILY</p>
+			</div>
+		</section>
+
+	<audio controls>
+		<source src="audio.mp3" type="audio/mp3">
+		<source src="audio.ogg" type="audio.ogg">
+		Sorry your browser does not supported embedding audios.
+	</audio>
+
+<!-- family -->
+	<center><tajuk><strong>My Lovely Family Members Slide</strong></tajuk></center>
+	<center><img src="img/me.jpg" name="slide" width="600px" height="600px">
+			<p> My name Nur Siti Ainsyah Binti Che Ismail. I am in a big family which i have 7 older brothers, 4 older sisters and 3 younger brothers. I am 12th out of 15. I am so glad that i have a big family. Hence, in every Hari Raya we celebrated together but since COVID-19 happen, we have to celebrate far from each other because most of my married sisters and brothers stay out of Kelantan. </p></center>
+	<script type="text/javascript">
+		<!-->
+		var step=1 
+		function slideit(){
+			document.images.slide.src=eval("image"+step+".src")
+			if(step<15)
+				step++
+			else
+				step=1
+			setTimeout("slideit()",1000)
+		}
+		slideit()
+		//>
+	</script>
+
+<!-- footer -->
+	<footer>
+			<div class="container">
+				<small>copyright & copy; 2021 - NUR SITI AINSYAH BINTI CHE ISMAIL (2020866028). All Rights Reserved.</small>
+			</div>
+	</footer>
+
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".bg-loader").hide();
+			})
+		</script>
+</body>
+</html>
